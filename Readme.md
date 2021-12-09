@@ -5,7 +5,7 @@
 
 Exchanging information between feed readers can be done via the [OPML format](https://en.wikipedia.org/wiki/OPML), which can be directly imported into most feed readers.
 At least for [RSSOwl](#RSSOwlnix) also filters and tags can be included.
-Currently, the following feeds are included into the [.opml](.opml) file:
+Currently, the following feeds are included into the [atmos_sci_journals_feeds.opml](atmos_sci_journals_feeds.opml) file:
 
 - [ACP - recent papers](https://acp.copernicus.org/articles/xml/rss2_0.xml)
 - [AMT - recent papers](https://amt.copernicus.org/articles/xml/rss2_0.xml)
@@ -37,7 +37,7 @@ For destop applications RSSOwlnix comes rather close, but with the disadvantage,
 - Setup
     - Download the a version from the releases https://github.com/Xyrio/RSSOwlnix/releases (expand the `Assets`)
     - upack the `.zip` and run executable (`RSSOwlnix.exe`)
-    - Import the `.opml` file: `File/Import...`
+    - Import the `atmos_sci_journals_feeds.opml` file: `File/Import...`
 
 ### other options
 
