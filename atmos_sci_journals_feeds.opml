@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml xmlns:rssowl="http://www.rssowl.org" version="1.1">
+  <head>
+    <title>RSSOwlnix Subscriptions</title>
+    <dateModified>Fr, 03 Dez 2021 22:31:11 MEZ</dateModified>
+  </head>
+  <body>
+    <outline text="My Feeds" rssowl:isSet="true" rssowl:id="7">
+      <outline text="Journals" rssowl:isSet="false" rssowl:id="11">
+        <outline text="ACP - recent papers (RSS2)" xmlUrl="https://acp.copernicus.org/articles/xml/rss2_0.xml" rssowl:id="36255" />
+        <outline text="AMT - recent papers (RSS2)" xmlUrl="https://amt.copernicus.org/articles/xml/rss2_0.xml" rssowl:id="36277" />
+        <outline text="ANGEO - recent papers (RSS2)" xmlUrl="https://angeo.copernicus.org/articles/xml/rss2_0.xml" rssowl:id="36299" />
+        <outline text="GMD - recent papers (RSS2)" xmlUrl="https://gmd.copernicus.org/articles/xml/rss2_0.xml" rssowl:id="37994" />
+        <outline text="BAMS (new)" xmlUrl="https://journals.ametsoc.org/journalissuetocrss/journals/bams/bams-overview.xml" rssowl:id="36321" />
+        <outline text="JAMC (new)" xmlUrl="https://journals.ametsoc.org/journalissuetocrss/journals/apme/apme-overview.xml" rssowl:id="36327" />
+        <outline text="JAOTech (new)" xmlUrl="https://journals.ametsoc.org/journalissuetocrss/journals/atot/atot-overview.xml" rssowl:id="36333" />
+        <outline text="Journal of Climate (new)" xmlUrl="https://journals.ametsoc.org/journalissuetocrss/journals/clim/clim-overview.xml" rssowl:id="36349" />
+        <outline text="JAS (new)" xmlUrl="https://journals.ametsoc.org/journalissuetocrss/journals/atsc/atsc-overview.xml" rssowl:id="36356" />
+        <outline text="Monthly Weather Review (new)" xmlUrl="https://journals.ametsoc.org/journalissuetocrss/journals/mwre/mwre-overview.xml" rssowl:id="36360" />
+        <outline text="Weather and Forecasting (new)" xmlUrl="https://journals.ametsoc.org/journalissuetocrss/journals/wefo/wefo-overview.xml" rssowl:id="36374" />
+        <outline text="JMSJ" xmlUrl="http://jmsj.metsoc.jp/RSS.xml" rssowl:id="835" />
+        <outline text="JGR: Atmospheres" xmlUrl="https://agupubs.onlinelibrary.wiley.com/action/showFeed?jc=21698996&amp;type=etoc&amp;feed=rss" rssowl:id="837" />
+        <outline text="QJRMS" xmlUrl="https://rmets.onlinelibrary.wiley.com/action/showFeed?jc=1477870X&amp;type=etoc&amp;feed=rss" rssowl:id="1082" />
+        <outline text="Nature Geoscience" xmlUrl="http://feeds.nature.com/ngeo/rss/current" rssowl:id="1462" />
+        <outline text="npj Climate and Atmospheric Science" xmlUrl="http://feeds.nature.com/npjclimatsci/rss/current" rssowl:id="1481" />
+        <outline text="Geophysical Research Letters" xmlUrl="https://agupubs.onlinelibrary.wiley.com/feed/19448007/most-recent" rssowl:id="14912" />
+      </outline>
+    </outline>
+    <rssowl:label id="1" name="Important" order="0" color="163,21,2" />
+    <rssowl:label id="2" name="Work" order="1" color="200,118,10" />
+    <rssowl:label id="3" name="Personal" order="2" color="82,92,58" />
+    <rssowl:label id="4" name="To Do" order="3" color="92,101,126" />
+    <rssowl:label id="5" name="Later" order="4" color="82,16,0" />
+    <rssowl:label id="1384" name="Cloud" order="5" color="111,121,174" />
+    <rssowl:label id="1390" name="remote-sensing" order="6" color="129,150,93" />
+    <rssowl:label id="36403" name="Arctic" order="8" color="0,0,0" />
+    <rssowl:label id="36411" name="turbulence" order="9" color="0,0,0" />
+    <rssowl:label id="1501" name="southern ocean" order="7" color="240,177,12" />
+    <rssowl:searchfilter name="Cloud" order="0" enabled="true" matchAllNews="false">
+      <rssowl:search matchAllConditions="false">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="2" />
+          <rssowl:searchvalue type="0" value="cloud" />
+          <rssowl:searchfield id="-1" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="2" />
+          <rssowl:searchvalue type="0" value="clouds" />
+          <rssowl:searchfield id="-1" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="2" />
+          <rssowl:searchvalue type="0" value="aerosol, interaction" />
+          <rssowl:searchfield id="-1" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:search>
+      <rssowl:filteraction id="org.rssowl.core.LabelNewsAction" data="1384" />
+    </rssowl:searchfilter>
+    <rssowl:searchfilter name="RS" order="1" enabled="true" matchAllNews="false">
+      <rssowl:search matchAllConditions="false">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="2" />
+          <rssowl:searchvalue type="0" value="radar, lidar, Radar, Lidar, remote?sensing" />
+          <rssowl:searchfield id="-1" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="2" />
+          <rssowl:searchvalue type="0" value="lidar" />
+          <rssowl:searchfield id="-1" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="2" />
+          <rssowl:searchvalue type="0" value="radar" />
+          <rssowl:searchfield id="-1" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:search>
+      <rssowl:filteraction id="org.rssowl.core.LabelNewsAction" data="1390" />
+    </rssowl:searchfilter>
+    <rssowl:searchfilter name="Arctic" order="3" enabled="true" matchAllNews="false">
+      <rssowl:search matchAllConditions="false">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="2" />
+          <rssowl:searchvalue type="0" value="Arctic" />
+          <rssowl:searchfield id="-1" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="2" />
+          <rssowl:searchvalue type="0" value="Pole, polar" />
+          <rssowl:searchfield id="-1" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="2" />
+          <rssowl:searchvalue type="0" value="MOSAiC" />
+          <rssowl:searchfield id="-1" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:search>
+      <rssowl:filteraction id="org.rssowl.core.LabelNewsAction" data="36403" />
+    </rssowl:searchfilter>
+    <rssowl:searchfilter name="turbulence" order="4" enabled="true" matchAllNews="false">
+      <rssowl:search matchAllConditions="false">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="2" />
+          <rssowl:searchvalue type="0" value="turbulence, wind" />
+          <rssowl:searchfield id="-1" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:search>
+      <rssowl:filteraction id="org.rssowl.core.LabelNewsAction" data="36411" />
+    </rssowl:searchfilter>
+    <rssowl:searchfilter name="Southern Ocean" order="2" enabled="true" matchAllNews="false">
+      <rssowl:search matchAllConditions="false">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="2" />
+          <rssowl:searchvalue type="0" value="southern?ocean, Southern?Ocean, antarctic, Antarctica" />
+          <rssowl:searchfield id="-1" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="2" />
+          <rssowl:searchvalue type="0" value="&quot;Southern Ocean&quot;, Southern-ocean, &quot;southern ocean&quot;" />
+          <rssowl:searchfield id="-1" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:search>
+      <rssowl:filteraction id="org.rssowl.core.LabelNewsAction" data="1501" />
+    </rssowl:searchfilter>
+  </body>
+</opml>
+
